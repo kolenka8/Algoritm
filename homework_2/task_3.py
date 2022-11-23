@@ -5,7 +5,7 @@ def uniq_paths_with_obstacles(grid: List[List[int]]) -> int:
     Args:
         grid (List[List[int]]): сетка, которую мы должны исследовать.
     Returns:
-        int: Количество возможных уникальных путей, по которым робот может добраться до нижнего правого угла.
+        int: Количество возможных уникальных путей
     """                    
     matrix = [[1] * len(grid) for _ in range(len(grid))]
     for i in range(1, len(matrix)):
